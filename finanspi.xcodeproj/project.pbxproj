@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7303299D251E307F00291DA6 /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303299C251E307F00291DA6 /* UserDefault+Extension.swift */; };
+		73642D11250FF47D00FD61E5 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73642D10250FF47D00FD61E5 /* LoginController.swift */; };
+		73B0FDD4251A403000794667 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B0FDD3251A403000794667 /* Helper.swift */; };
+		73DDF5CA250E7AB300807956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DDF5C9250E7AB300807956 /* AppDelegate.swift */; };
+		73DDF5CC250E7AB300807956 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DDF5CB250E7AB300807956 /* SceneDelegate.swift */; };
+		73DDF5CE250E7AB300807956 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DDF5CD250E7AB300807956 /* HomeViewController.swift */; };
+		73DDF5D1250E7AB300807956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DDF5CF250E7AB300807956 /* Main.storyboard */; };
+		73DDF5D4250E7AB300807956 /* finanspi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73DDF5D2250E7AB300807956 /* finanspi.xcdatamodeld */; };
+		73DDF5D6250E7AB800807956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73DDF5D5250E7AB800807956 /* Assets.xcassets */; };
+		73ECF6BA251BCD09000FDDDC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ECF6B8251BCCDB000FDDDC /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7397C289251A34DF002C0574 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7303299C251E307F00291DA6 /* UserDefault+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extension.swift"; sourceTree = "<group>"; };
+		73642D10250FF47D00FD61E5 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		73B0FDD3251A403000794667 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		73DD45FD251A37FB003DAAD9 /* Finanspi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Finanspi.entitlements; sourceTree = "<group>"; };
+		73DDF5C6250E7AB300807956 /* Finanspi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finanspi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73DDF5C9250E7AB300807956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73DDF5CB250E7AB300807956 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		73DDF5CD250E7AB300807956 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		73DDF5D0250E7AB300807956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73DDF5D3250E7AB300807956 /* finanspi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = finanspi.xcdatamodel; sourceTree = "<group>"; };
+		73DDF5D5250E7AB800807956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73DDF5DA250E7AB800807956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73ECF6B8251BCCDB000FDDDC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		98ADAC3DAF0730B3217CBF9D /* Pods-finanspi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finanspi.release.xcconfig"; path = "Target Support Files/Pods-finanspi/Pods-finanspi.release.xcconfig"; sourceTree = "<group>"; };
+		F5A6232E40EB6BFC40D1A1AC /* Pods-finanspi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finanspi.debug.xcconfig"; path = "Target Support Files/Pods-finanspi/Pods-finanspi.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73DDF5C3250E7AB300807956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73ECF6BA251BCD09000FDDDC /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1836B243B7ED40F40196E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5A6232E40EB6BFC40D1A1AC /* Pods-finanspi.debug.xcconfig */,
+				98ADAC3DAF0730B3217CBF9D /* Pods-finanspi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73068A2E25275048006CBDA5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				73DDF5CD250E7AB300807956 /* HomeViewController.swift */,
+				73642D10250FF47D00FD61E5 /* LoginController.swift */,
+				73DDF5C9250E7AB300807956 /* AppDelegate.swift */,
+				73DDF5CB250E7AB300807956 /* SceneDelegate.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		73068A2F2527505C006CBDA5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				73B0FDD3251A403000794667 /* Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		73068A302527506C006CBDA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73DDF5D5250E7AB800807956 /* Assets.xcassets */,
+				73DDF5DA250E7AB800807956 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		73068A31252750AA006CBDA5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				73DDF5CF250E7AB300807956 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		73068A33252751D3006CBDA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7303299C251E307F00291DA6 /* UserDefault+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73DDF5BD250E7AB300807956 = {
+			isa = PBXGroup;
+			children = (
+				73DDF5C8250E7AB300807956 /* finanspi */,
+				73DDF5C7250E7AB300807956 /* Products */,
+				5B1836B243B7ED40F40196E6 /* Pods */,
+				73ECF6B7251BCCDB000FDDDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73DDF5C7250E7AB300807956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73DDF5C6250E7AB300807956 /* Finanspi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73DDF5C8250E7AB300807956 /* finanspi */ = {
+			isa = PBXGroup;
+			children = (
+				73068A33252751D3006CBDA5 /* Extensions */,
+				73068A31252750AA006CBDA5 /* Storyboards */,
+				73068A302527506C006CBDA5 /* Resources */,
+				73068A2F2527505C006CBDA5 /* Helpers */,
+				73068A2E25275048006CBDA5 /* View Controllers */,
+				73DD45FD251A37FB003DAAD9 /* Finanspi.entitlements */,
+				73DDF5D2250E7AB300807956 /* finanspi.xcdatamodeld */,
+			);
+			path = finanspi;
+			sourceTree = "<group>";
+		};
+		73ECF6B7251BCCDB000FDDDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73ECF6B8251BCCDB000FDDDC /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73DDF5C5250E7AB300807956 /* finanspi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73DDF5DD250E7AB800807956 /* Build configuration list for PBXNativeTarget "finanspi" */;
+			buildPhases = (
+				5A46AAF9B1AB2A82D6F95C0B /* [CP] Check Pods Manifest.lock */,
+				73DDF5C2250E7AB300807956 /* Sources */,
+				73DDF5C3250E7AB300807956 /* Frameworks */,
+				73DDF5C4250E7AB300807956 /* Resources */,
+				0747763EB29C4AEE6CACEC26 /* [CP] Embed Pods Frameworks */,
+				7397C289251A34DF002C0574 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = finanspi;
+			productName = finanspi;
+			productReference = 73DDF5C6250E7AB300807956 /* Finanspi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73DDF5BE250E7AB300807956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Abdulsalam Alroas";
+				TargetAttributes = {
+					73DDF5C5250E7AB300807956 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 73DDF5C1250E7AB300807956 /* Build configuration list for PBXProject "finanspi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73DDF5BD250E7AB300807956;
+			productRefGroup = 73DDF5C7250E7AB300807956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73DDF5C5250E7AB300807956 /* finanspi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73DDF5C4250E7AB300807956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DDF5D6250E7AB800807956 /* Assets.xcassets in Resources */,
+				73DDF5D1250E7AB300807956 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0747763EB29C4AEE6CACEC26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finanspi/Pods-finanspi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finanspi/Pods-finanspi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-finanspi/Pods-finanspi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A46AAF9B1AB2A82D6F95C0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-finanspi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73DDF5C2250E7AB300807956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DDF5CE250E7AB300807956 /* HomeViewController.swift in Sources */,
+				73DDF5D4250E7AB300807956 /* finanspi.xcdatamodeld in Sources */,
+				73DDF5CA250E7AB300807956 /* AppDelegate.swift in Sources */,
+				73DDF5CC250E7AB300807956 /* SceneDelegate.swift in Sources */,
+				7303299D251E307F00291DA6 /* UserDefault+Extension.swift in Sources */,
+				73B0FDD4251A403000794667 /* Helper.swift in Sources */,
+				73642D11250FF47D00FD61E5 /* LoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73DDF5CF250E7AB300807956 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73DDF5D0250E7AB300807956 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73DDF5DB250E7AB800807956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73DDF5DC250E7AB800807956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73DDF5DE250E7AB800807956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A6232E40EB6BFC40D1A1AC /* Pods-finanspi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = finanspi/Finanspi.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4NLMF27K3K;
+				INFOPLIST_FILE = finanspi/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodcenter.finanspi;
+				PRODUCT_NAME = Finanspi;
+				PROVISIONING_PROFILE_SPECIFIER = "Kodcenter WG AB";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73DDF5DF250E7AB800807956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98ADAC3DAF0730B3217CBF9D /* Pods-finanspi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = finanspi/Finanspi.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4NLMF27K3K;
+				INFOPLIST_FILE = finanspi/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodcenter.finanspi;
+				PRODUCT_NAME = Finanspi;
+				PROVISIONING_PROFILE_SPECIFIER = "Kodcenter WG AB";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73DDF5C1250E7AB300807956 /* Build configuration list for PBXProject "finanspi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DDF5DB250E7AB800807956 /* Debug */,
+				73DDF5DC250E7AB800807956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73DDF5DD250E7AB800807956 /* Build configuration list for PBXNativeTarget "finanspi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DDF5DE250E7AB800807956 /* Debug */,
+				73DDF5DF250E7AB800807956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		73DDF5D2250E7AB300807956 /* finanspi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				73DDF5D3250E7AB300807956 /* finanspi.xcdatamodel */,
+			);
+			currentVersion = 73DDF5D3250E7AB300807956 /* finanspi.xcdatamodel */;
+			path = finanspi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 73DDF5BE250E7AB300807956 /* Project object */;
+}

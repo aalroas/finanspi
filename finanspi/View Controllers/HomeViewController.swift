@@ -30,7 +30,7 @@ class HomeViewController: UIViewController,WKNavigationDelegate,WKUIDelegate,SFS
         SVProgressHUD.setBackgroundLayerColor(UIColor(red: 0.07, green: 0.09, blue: 0.13, alpha: 1.00))    //Background Color
         SVProgressHUD.show()
         
-        let baseURL = URL(string: noUrl == "" ? "https://www.pi.finanspi.com" : noUrl)
+        let baseURL = URL(string: noUrl == "" ? "https://www.finanspi.com" : noUrl)
         let myRequest = URLRequest(url: baseURL!)
         myWebView.load(myRequest)
         
@@ -153,8 +153,8 @@ class HomeViewController: UIViewController,WKNavigationDelegate,WKUIDelegate,SFS
                     decisionHandler(.allow)
                     return
                 }
-            if (url.host == "www.pi.finanspi.com"){
-                if url.absoluteString == "https://www.pi.finanspi.com/logout" {
+            if (url.host == "www.finanspi.com"){
+                if url.absoluteString == "https://www.finanspi.com/logout" {
                       self.removeCookies()
                       UserDefaults.standard.removeAll()
                       let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -260,7 +260,7 @@ class HomeViewController: UIViewController,WKNavigationDelegate,WKUIDelegate,SFS
 func checkLogin(uName:String, uPassword:String){
     
     print("Checking Login")
-    guard let url = URL(string: "https://www.pi.finanspi.com/api/auth") else {
+    guard let url = URL(string: "https://www.finanspi.com/api/auth") else {
                 return
             }
     let data : Data =  "username=\(uName)&password=\(uPassword)&server_key=56ef57705487e1954a2fbd0a1882404e4bb3a0c3-fc12b2efb86e258aa228832a71d465fd-79130275".data(using: .utf8)!
@@ -322,7 +322,7 @@ func checkLogin(uName:String, uPassword:String){
         }
         print(UserDefaults.standard.DeviceToken ?? "No Token")
         print(UserDefaults.standard.accessToken ?? "No accessToken")
-        guard let url = URL(string: "https://www.pi.finanspi.com/api/update-user-data?access_token=\(uAccessToken)") else {
+        guard let url = URL(string: "https://www.finanspi.com/api/update-user-data?access_token=\(uAccessToken)") else {
                     return
                 }
         let data : Data =  "ios_n_device_id=\(UdeviceToken)&server_key=56ef57705487e1954a2fbd0a1882404e4bb3a0c3-fc12b2efb86e258aa228832a71d465fd-79130275".data(using: .utf8)!

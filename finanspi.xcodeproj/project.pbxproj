@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1797D100A6450169259E6433 /* Pods_finanspi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D3CA253DEEA01A9BA395E /* Pods_finanspi.framework */; };
 		7303299D251E307F00291DA6 /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303299C251E307F00291DA6 /* UserDefault+Extension.swift */; };
 		73642D11250FF47D00FD61E5 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73642D10250FF47D00FD61E5 /* LoginController.swift */; };
 		73B0FDD4251A403000794667 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B0FDD3251A403000794667 /* Helper.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		070D3CA253DEEA01A9BA395E /* Pods_finanspi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finanspi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7303299C251E307F00291DA6 /* UserDefault+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extension.swift"; sourceTree = "<group>"; };
 		73642D10250FF47D00FD61E5 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		73B0FDD3251A403000794667 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73ECF6BA251BCD09000FDDDC /* WebKit.framework in Frameworks */,
+				1797D100A6450169259E6433 /* Pods_finanspi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				73ECF6B8251BCCDB000FDDDC /* WebKit.framework */,
+				070D3CA253DEEA01A9BA395E /* Pods_finanspi.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -414,9 +418,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = finanspi/Finanspi.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 4NLMF27K3K;
 				INFOPLIST_FILE = finanspi/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -424,9 +428,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kodcenter.finanspi;
 				PRODUCT_NAME = Finanspi;
-				PROVISIONING_PROFILE_SPECIFIER = "Kodcenter WG AB";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,9 +443,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = finanspi/Finanspi.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 4NLMF27K3K;
 				INFOPLIST_FILE = finanspi/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -448,9 +453,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kodcenter.finanspi;
 				PRODUCT_NAME = Finanspi;
-				PROVISIONING_PROFILE_SPECIFIER = "Kodcenter WG AB";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

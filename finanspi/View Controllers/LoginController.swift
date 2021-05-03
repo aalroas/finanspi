@@ -26,7 +26,7 @@ class LoginController: UIViewController,UITextFieldDelegate,SFSafariViewControll
     @IBOutlet weak var password: UITextField!
     
     @IBAction func LoginButton(_ sender: Any) {
-        guard let url = URL(string: "https://www.pi.finanspi.com/api/auth") else {
+        guard let url = URL(string: "https://www.finanspi.com/api/auth") else {
                     return
                 }
         SVProgressHUD.show()
@@ -98,7 +98,7 @@ class LoginController: UIViewController,UITextFieldDelegate,SFSafariViewControll
     }
  
     @IBAction func RegisterButton(_ sender: Any) {
-        let urlString = "https://www.pi.finanspi.com/register"
+        let urlString = "https://www.finanspi.com/register"
 
         if let url = URL(string: urlString) {
             let vc = SFSafariViewController(url: url)
@@ -113,7 +113,7 @@ class LoginController: UIViewController,UITextFieldDelegate,SFSafariViewControll
     
     @IBAction func termsButton(_ sender: Any) {
         
-        let urlString = "https://www.pi.finanspi.com/terms/terms"
+        let urlString = "https://www.finanspi.com/terms/terms"
 
         if let url = URL(string: urlString) {
             let vc = SFSafariViewController(url: url)
@@ -127,7 +127,7 @@ class LoginController: UIViewController,UITextFieldDelegate,SFSafariViewControll
     
     @IBAction func privacyPolicyButton(_ sender: Any) {
         
-        let urlString = "https://www.pi.finanspi.com/terms/privacy-policy"
+        let urlString = "https://www.finanspi.com/terms/privacy-policy"
 
         if let url = URL(string: urlString) {
             let vc = SFSafariViewController(url: url)
